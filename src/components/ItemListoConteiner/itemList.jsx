@@ -1,4 +1,4 @@
-import React from 'react'
+/*import React from 'react'
 
 const ItemList = ({products}) => {
     return ( 
@@ -24,3 +24,4 @@ const ItemList = ({products}) => {
         )
 
     }
+*/
