@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import {Card} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -21,4 +21,4 @@ const ItemDetail = async () => {
 
     )
 }
- export default ItemDetail 
+ export default ItemDetail */

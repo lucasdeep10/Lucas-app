@@ -10,7 +10,7 @@ export const Item = ({prod}) => {
     {`${prod.nombre} - ${prod.tipo}` }
 </div>
 <div className="card.header">
-<img  src={prod.img} alr= 'Pantalon'/>
+<img  src={prod.img} alt= ""/>
     <div className="list-group-flush">
         <p>$ {prod.precio}</p>
         <p>Talle: {prod.talle}</p> 

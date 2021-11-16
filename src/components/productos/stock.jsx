@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React from 'react'
 
 const products = [
     {id:1, nombre: "Remera", talle:'', tipo:"Remera", precio: 750, img: '', cantidad:1},

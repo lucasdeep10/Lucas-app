@@ -3,7 +3,6 @@ import{useState,useEffect} from 'react';
 import {Spinner} from 'react-bootstrap';
 import { getFetch } from '../../services/getFeach';
 import ItemCount from '../NavBar/Button';
-import ItemDetail from './ItemDetail';
 import ItemList from './itemList.jsx';
 
 
@@ -24,10 +23,10 @@ function ItemListContainer({greeting}) {
         <>
         <h1>{greeting}</h1>
         {loading ? <Spinner animation="border" role="status">
-                        <span className="visually-hideen">Loading...</span>
-                        </Spinner>:  <ItemList products={products}/>
-                        }
-       <ItemCount/>
+                    <span className="visually-hideen">Loading...</span>
+                    </Spinner> :  <ItemList products={products}/>
+        }
+                        <ItemCount/>
        </>
     )
 }
